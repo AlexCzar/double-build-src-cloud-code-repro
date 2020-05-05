@@ -1,0 +1,11 @@
+== Repro project for Google Cloud Code issue with gradle composite projects in IntelliJ
+
+Google Cloud Code prevents IntelliJ from fully importing composite project when there
+is more than one buildSrc subprojects.
+
+See `error.log`
+
+* Cloud Code version: 20.4.3
+* Tested IntelliJ versions: 2020.1 Ultimate and 2020.1.1 Ultimate
+* Tested Gradle version: 6.3
+
